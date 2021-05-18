@@ -1,6 +1,6 @@
 {
   "name": "react-native-mention-hashtag-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react native text component for highlighted mentions and hashtags similar to instagram. Mentions and hashtags are also clickable.",
   "main": "index.js",
   "scripts": {
