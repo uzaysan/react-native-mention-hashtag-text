@@ -1,0 +1,24 @@
+{
+  "name": "react-native-mention-hashtag-text",
+  "version": "1.0.1",
+  "description": "A react native text component for highlighted mentions and hashtags similar to instagram. Mentions and hashtags are also clickable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzaysan/react-native-mention-hashtag-text.git"
+  },
+  "keywords": [
+    "react-native",
+    "hashtag",
+    "mention"
+  ],
+  "author": "uzaysan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzaysan/react-native-mention-hashtag-text/issues"
+  },
+  "homepage": "https://github.com/uzaysan/react-native-mention-hashtag-text#readme"
+}

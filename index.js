@@ -50,7 +50,9 @@ const Mention = (props) => {
           : "#0384BE",
       }}
       onPress={() => {
-        props.mentionHashtagPress(props.text);
+        if (props.mentionHashtagPress) {
+          props.mentionHashtagPress(props.text);
+        }
       }}
     >
       {props.text}

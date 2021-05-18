@@ -1,0 +1,12 @@
+{
+  "name": "mention-hashtag-test",
+  "displayName": "mention-hashtag-test",
+  "expo": {
+    "name": "mention-hashtag-test",
+    "slug": "mention-hashtag-test",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
