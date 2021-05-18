@@ -4,6 +4,7 @@
 
     npm i react-native-mention-hashtag-text
 
+<<<<<<< HEAD
 # Usage
 
     import  MentionHashtagTextView  from  "react-native-mention-hashtag-text";
@@ -25,6 +26,34 @@
 | ------------------- | --------------------- | ----------------------------------------------------------------- |
 | mentionHashtagPress | (void) (string) => {} | Triggered when user clicked a hashtag or mention.                 |
 | mentionHashtagColor | (String) Color        | Mention and hashtag color. Uses #0384BE (light blue) for default. |
+=======
+
+# Usage
+
+  
+
+    import  MentionHashtagTextView  from  "react-native-mention-hashtag-text";
+     
+    <MentionHashtagTextView
+	    mentionHashtagPress={mentionHashtagClick}
+	    mentionHashtagColor={"#ff0000"}
+	    >
+	    This is a text with a @mention and #hashtag. You can add more @mentions like @john @foe or #hashtags like #ReactNative
+    </MentionHashtagTextView>
+
+
+## Props
+
+
+|       Props         |Params                          |Description                        |
+|----------------|-------------------------------|-----------------------------|
+|mentionHashtagPress|(void) (string) => {}             |Triggered when user clicked a hashtag or mention.          |
+|mentionHashtagColor         |(String) Color          |Mention and hashtag color. Uses #0384BE (light blue) for default.
+
+
+
+
+>>>>>>> 776d4be4e64a1c1b972100ef36e84447196079f2
 
 ## License
 
