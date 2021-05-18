@@ -6,13 +6,7 @@ import { Alert } from "react-native";
 
 export default function App() {
   const mentionHashtagClick = (text) => {
-    Alert.alert("Clicked", text, [
-      {
-        text: "Cancel",
-        style: "cancel",
-      },
-      { text: "OK" },
-    ]);
+    console.log("Clicked to + " + text);
   };
   return (
     <View style={styles.container}>
